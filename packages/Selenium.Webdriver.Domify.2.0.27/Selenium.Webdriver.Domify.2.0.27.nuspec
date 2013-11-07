@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Selenium.Webdriver.Domify</id>
+    <version>2.0.27</version>
+    <title>Selenium.Webdriver.Domify</title>
+    <authors>Yngve Bakken Nilsen</authors>
+    <owners>Yngve Bakken Nilsen</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/yngvebn/Selenium.Webdriver.Domify</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extends Selenium.Webdriver to make it easier to navigate and access the DOM.</description>
+    <releaseNotes />
+    <copyright>Copyright  2013</copyright>
+    <language>en-US</language>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Selenium.Support" version="2.35.0" />
+        <dependency id="Selenium.WebDriver" version="2.35.0" />
+        <dependency id="HtmlAgilityPack" version="1.4.6" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Selenium.Support" version="2.35.0" />
+        <dependency id="Selenium.WebDriver" version="2.35.0" />
+        <dependency id="HtmlAgilityPack" version="1.4.6" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
